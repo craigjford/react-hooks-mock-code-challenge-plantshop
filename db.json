@@ -41,6 +41,24 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Pansies",
+      "image": "https://media.gettyimages.com/photos/pansy-flowers-petals-floating-in-bird-bath-closeup-overhead-view-picture-id200149621-001?k=20&m=200149621-001&s=612x612&w=0&h=FMqa0Xo_fL4lZ92ZQzoK74bA-zudX1csiSQrrvrygoM=",
+      "price": "29.33",
+      "id": 9
+    },
+    {
+      "name": "Sunflower",
+      "image": "https://grid.gograph.com/sunflower-vector-illustration_gg79892528.jpg",
+      "price": "32.75",
+      "id": 10
+    },
+    {
+      "name": "dandelion",
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oZBiRYP_U8xiQncht1HMsAHaE8%26pid%3DApi&f=1",
+      "price": "12.34",
+      "id": 11
     }
   ]
 }
