@@ -49,16 +49,22 @@
       "id": 9
     },
     {
-      "name": "Sunflower",
-      "image": "https://grid.gograph.com/sunflower-vector-illustration_gg79892528.jpg",
-      "price": "32.75",
+      "name": "Mother In Law Tongue Plant",
+      "image": "https://www.plantandflowerinfo.com/images/sansevieria-houseplant.jpg",
+      "price": "12.34",
       "id": 10
     },
     {
-      "name": "dandelion",
-      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.oZBiRYP_U8xiQncht1HMsAHaE8%26pid%3DApi&f=1",
-      "price": "12.34",
+      "name": "Aglaonema Plant",
+      "image": "https://www.plantandflowerinfo.com/images/aglaonema-houseplant-red.jpg",
+      "price": 56.27,
       "id": 11
+    },
+    {
+      "name": "Dracaena Marginata Plant",
+      "image": "https://www.plantandflowerinfo.com/images/pothos-marble-queen-plant.jpg",
+      "price": 38.42,
+      "id": 12
     }
   ]
 }

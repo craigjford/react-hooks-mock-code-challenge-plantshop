@@ -5,14 +5,6 @@ function NewPlantForm({ handleSubmit }) {
     const [image, setImage] = useState("");
     const [price, setPrice] = useState("");
 
-  const init = () => {
-    console.log('init name = ', name);
-    console.log('init image = ', image);
-    console.log('init price = ', price);
-  }  
-
-  init();
-
   function onSubmit(event) {
 
       event.preventDefault();
@@ -20,7 +12,7 @@ function NewPlantForm({ handleSubmit }) {
       const newPlant = {
         name: name,
         image: image,
-        price: price
+        price: parseFloat(price)
       }   
 
       console.log('in plant form - newPlant = ', newPlant);
@@ -44,9 +36,9 @@ function NewPlantForm({ handleSubmit }) {
     <div className="new-plant-form">
       <h2>New Plant</h2>
       <form onSubmit={onSubmit}>
-        <input type="text" name="name" placeholder="Plant name" required onChange={(e) => setName(e.target.value)} />
-        <input type="text" name="image" placeholder="Image URL" required onChange={(e) => setImage(e.target.value)} />
-        <input type="number" name="price" step="0.01" placeholder="Price" required onChange={(e) => setPrice(e.target.value)} />
+        <input type="text" name="name" placeholder="Plant name" value={name} required onChange={(e) => setName(e.target.value)} />
+        <input type="text" name="image" placeholder="Image URL" value={image} required onChange={(e) => setImage(e.target.value)} />
+        <input type="number" name="price" step="0.01" placeholder="Price" value={price} required onChange={(e) => setPrice(e.target.value)} />
         <button type="submit">Add Plant</button>
       </form>
     </div>
